@@ -1,0 +1,1 @@
+GJ.add("app/ms_v2/vehicle/common/widget/baidualog/baidualog.js",["jquery"],function(b,a,c){var d=b("jquery");a.init=function(){var f=f||[];var e=d("[baidu_alog]");e.each(function(){var g=d(this);d.each(g.attr("baidu_alog").split("#"),function(i,j){var h=["_trackEvent"].concat(j.split("&"));g.on(h[2],function(){window._hmt.push(h)})})})}});
